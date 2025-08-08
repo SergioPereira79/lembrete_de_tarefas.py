@@ -28,4 +28,17 @@ Um simples programa para Windows que ajuda a lembrar de checar sua lista de tare
 4.  Execute o script:
     ```bash
     py lembrete_de_tarefas.py
-    ```
+
+    ---
+
+### Aviso do Windows Defender SmartScreen
+
+Ao executar o arquivo `.exe` pela primeira vez, o Windows pode exibir uma tela de proteção dizendo "O Windows protegeu o computador".
+
+**Isso é um comportamento normal e esperado.** Acontece porque nosso programa é um projeto independente e não possui uma assinatura de código de uma grande empresa.
+
+Para prosseguir, siga estes passos:
+1.  Na tela de aviso, clique em **"Mais informações"**.
+2.  Em seguida, clique no botão **"Executar assim mesmo"**.
+
+Nosso código é 100% open-source e pode ser verificado por qualquer pessoa aqui no GitHub para confirmar que é seguro.
